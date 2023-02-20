@@ -21,3 +21,21 @@ Vectorize the training and testing data using the CountVectorizer class from sci
 Train a Naive Bayes classifier on the training data using the MultinomialNB class from scikit-learn.
 Evaluate the accuracy of the classifier on the testing data.
 extract the new file to csv which includes brand names
+
+### How to use
+
+Install the required libraries using pip:
+pip install pandas scikit-learn
+Place your product list CSV file in the same directory as the script.
+Edit the script to use the correct file name:
+
+df = pd.read_csv("carbonated_soft_drinks.csv")
+
+### Run the script:
+
+NLP_Challenge_part2.ipynb
+
+### Results
+carbonated_soft_drinks_with_brands.csv
+
+The script will output the accuracy of the classifier.
