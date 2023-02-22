@@ -1,5 +1,5 @@
-# NLP-challenge
-Brand Name Extraction from Product List using Naive Bayes Classifier
+# NLP-Brand Name Extraction from Product List using Naive Bayes Classifier
+
 -You’ve been given a product list of ~16,000 carbonated soft drinks (see carbonated_soft_drinks.csv) and you’re asked to build a model that can extract the product’s brand (e.g., Coke, Pepsi Sunkist), when available. 
 ### Product List Brand Classifier
 This is a Python script that uses supervised machine learning to classify soft drinks in a product list dataset based on their brand names.
